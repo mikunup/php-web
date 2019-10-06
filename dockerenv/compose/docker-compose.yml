@@ -1,0 +1,36 @@
+version: '3'
+services:
+  php-apache:
+    # ビルドするDockerFile
+    build:
+      # フォルダの場所
+      context: ../php
+      # ファイル名
+      dockerfile: Dockerfile
+    # コンテナ名
+    container_name: 'php'
+    # ポート番号指定(ホスト:ゲスト)
+    ports:
+      - 8080:80
+    # 同期する対象フォルダの指定（ホスト:ゲスト）
+    volumes:
+      - ../../src/:/var/www/html
+    networks:
+      - sampletest
+      - default
+  db:
+    build:
+      context: ../mysql
+      dockerfile: Dockerfile
+    container_name: 'db'
+    ports:
+      # ポート指定
+      - ${MYSQL_PORT}:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    networks:
+      - sampletest
+      - default
+networks:
+  sampletest:
+    external: true
