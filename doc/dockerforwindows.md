@@ -1,4 +1,4 @@
-# docekr for windows
+# Docker for windows
 
 WindowsとDockerを使用した環境構築手順を説明いたします。
 
