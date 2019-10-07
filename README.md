@@ -1,5 +1,6 @@
 # php-web
-phpの環境構築
+
+phpの環境構築練習のためフォルダ
 
 ## 環境
 
@@ -9,7 +10,7 @@ phpの環境構築
 
 ## 環境構築
 
-環境構築方法は、下記3つのなかからお選びください。
+環境構築方法は、下記3つからお選びください。
 
 * [Docker For Windows](https://github.com/mikunup/php-web/blob/master/doc/dockerforwindows.md)
 * [Vagrant For Windows](https://github.com/mikunup/php-web/blob/master/doc/vagrantforwindows.md)
@@ -20,7 +21,9 @@ phpの環境構築
 ### src
 
 srcフォルダはPHPのコードを編集するところです。
+
 Apacheのドキュメントルートになっています。
+
 Apacheの変更は.htaccessでお願いいたします。
 
 ### dokcerenv
