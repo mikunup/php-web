@@ -24,15 +24,17 @@ https://qiita.com/hein946/items/cc44aa8d4061eb00dc5d
 
 vagrant plugin list
 
-```linux:command
+```
+
 
 確認コマンド
+
 
 ```linux:command
 
 vagrant plugin install vagrant-vbguest
 
-```linux:command
+```
 
 TODO
 
