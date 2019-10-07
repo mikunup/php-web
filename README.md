@@ -11,13 +11,21 @@ phpの環境構築
 
 環境構築方法は、下記3つのなかからお選びください。
 
-* Docker For Windows
-* Vagrant For Windows
+* [Docker For Windows](https://github.com/mikunup/php-web/blob/master/doc/dockerforwindows.md)
+* [Vagrant For Windows](https://github.com/mikunup/php-web/blob/master/doc/vagrantforwindows.md)
 * Mac For Docker
 
 ## フォルダ構成
 
-srcフォルダ
+### src
+
+srcフォルダはPHPのコードを編集するところです。
+Apacheのドキュメントルートになっています。
+Apacheの変更は.htaccessでお願いいたします。
+
+### dokcerenv
+
+dokcerの環境構築のコードが入っています。
 
 ```linux:tree
 
