@@ -1,6 +1,6 @@
 # docekr for windows
 
-WindowsとDockerを使用した環境構築手順を説明いたします。
+WindowsとDockerを使用した環境構築手順を説明いたします。
 
 1. CPU仮想化を有効にする
 1. Docker Toolboxをインストールする
