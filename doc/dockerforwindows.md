@@ -31,7 +31,7 @@ https://qiita.com/KIYS/items/8ac37f6757a6b7f84569
 
     cd {このプロジェクト}/dockerenv/compose
 
-    docker-compose up -d -build
+    docker-compose up -d --build
 
 ```
 
