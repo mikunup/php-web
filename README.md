@@ -1,6 +1,6 @@
 # php-web
 
-phpの環境構築練習のためフォルダ
+phpとApacheです。
 
 ## 環境
 

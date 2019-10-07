@@ -11,30 +11,38 @@ WindowsとDockerを使用した環境構築手順を説明いたします。
 
 TODO
 
-下記みて、CPU仮想化する
+下記を参考に、CPU仮想化する。
 
 https://qiita.com/KIYS/items/8ac37f6757a6b7f84569
+
+
+http://www.dwapp.top/environment/virtualization/817
 
 ## 2.Docker Toolboxをインストールする
 
-TODO
-
-下記をみて、インストールする
+下記を参考に、インストールする。
 
 https://qiita.com/KIYS/items/8ac37f6757a6b7f84569
 
+
 ## 3.ビルド
 
+```linux:command
 
-    cd dockerenv/compose
+    cd {このプロジェクト}/dockerenv/compose
 
     docker-compose up -d -build
 
+```
+
 ## 4 URLで確認する
+
+```linux:command
 
     http://localhost:8080/
 
+```
 
-phpInfo画面が見れたら、環境構築終了です。
+phpInfo画面が表示されたら、環境構築終了です。
 
 お疲れ様でした。
