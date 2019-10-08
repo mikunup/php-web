@@ -28,13 +28,17 @@ Apacheの変更は.htaccessでお願いいたします。
 
 ### dokcerenv
 
-dokcerの環境構築のコードが入っています。
+Dockerの環境構築のコードが入っています。
+
+### vagrantenv
+
+vagrantの環境構築のコードが入っています。
+
 
 ```linux:tree
 
 .
 ├── README.md
-├── Vagrantfile
 ├── doc
 │   ├── dockerforwindows.md
 │   └── vagrantforwindows.md
@@ -49,10 +53,11 @@ dokcerの環境構築のコードが入っています。
 │   └── php
 │       ├── Dockerfile
 │       └── php.ini
-├── initenv.sh
 ├── src
-│   ├── .htaccess
 │   └── index.php
-└── startDocker.sh
+└── vagrantenv
+    ├── Vagrantfile
+    ├── initenv.sh
+    └── startDocker.sh
 
 ```
