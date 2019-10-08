@@ -24,8 +24,8 @@ Vagrant.configure("2") do |config|
   # accessing "localhost:8080" will access port 80 on the guest machine.
   # NOTE: This will enable public access to the opened port
   # config.vm.network "forwarded_port", guest: 80, host: 8080
-  #config.vm.network "forwarded_port", guest: 80, host: 8888, ip:"192.168.33.44" 
-  config.vm.network "private_network", ip:"192.168.33.44" 
+  #config.vm.network "forwarded_port", guest: 80, host: 8888, ip:"192.168.33.44"
+  config.vm.network "private_network", ip:"192.168.33.44"
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine and only allow access
   # via 127.0.0.1 to disable public access
@@ -45,7 +45,7 @@ Vagrant.configure("2") do |config|
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
-  config.vm.synced_folder ".", "/vagrant_data", :mount_options => ["dmode=777", "fmode=777"]
+  config.vm.synced_folder "../", "/vagrant_data", :mount_options => ["dmode=777", "fmode=777"]
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
@@ -62,10 +62,10 @@ Vagrant.configure("2") do |config|
       sudo yum -y update
   SHELL
   config.vm.provision "shell",
-    inline: "/vagrant_data/initenv.sh"
+    inline: "/vagrant_data/vagrantenv/initenv.sh"
   config.vm.provision "shell",
     run: "always",
-    inline: "/vagrant_data/startDocker.sh"
+    inline: "/vagrant_data/vagrantenv/startDocker.sh"
   #
   # View the documentation for the provider you are using for more
   # information on available options.

@@ -1,6 +1,6 @@
 # Vagrant for windows
 
-WindowsとVarantを使用した環境構築手順を説明いたします。
+WindowsとVagrantを使用した環境構築手順を説明いたします。
 
 1. VagrantとVitualBoxをインストールする
 1. プラグインをインストールする
@@ -41,9 +41,9 @@ vagrant plugin install vagrant-vbguest
 
 ```linux:command
 
-    cd {このプロジェクトのルート}
+    cd {このプロジェクトのルート}/vagrantenv
 
-    Vagarant up
+    vagrant up
 
 ```
 
