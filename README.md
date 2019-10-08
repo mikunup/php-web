@@ -4,7 +4,7 @@ phpとApacheです。
 
 ## 環境
 
-* PHP 7.2系
+* PHP Version 7.2.23
 * Apache/2.4.38 (Debian)
 * mysqlnd 5.0.12-dev - 20150407
 
