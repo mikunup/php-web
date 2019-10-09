@@ -29,7 +29,9 @@ https://qiita.com/KIYS/items/8ac37f6757a6b7f84569
 
 ```linux:command
 
-    cd {このプロジェクト}/dockerenv/compose
+    cd {このプロジェクトのルート}
+
+    cd dockerenv/compose
 
     docker network create sampletest
 

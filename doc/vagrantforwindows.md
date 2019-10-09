@@ -41,7 +41,9 @@ vagrant plugin install vagrant-vbguest
 
 ```linux:command
 
-    cd {このプロジェクトのルート}/vagrantenv
+    cd {このプロジェクトのルート}
+
+    cd /vagrantenv
 
     vagrant up
 

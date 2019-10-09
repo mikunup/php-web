@@ -16,7 +16,9 @@ Googleで検索、けんさく〜
 
 ```linux:command
 
-    cd {このプロジェクト}/dockerenv/compose
+    cd {このプロジェクト}
+
+    cd dockerenv/compose
 
     docker network create sampletest
 

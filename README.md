@@ -6,7 +6,8 @@ phpとApacheです。
 
 * PHP Version 7.2.23
 * Apache/2.4.38 (Debian)
-* mysqlnd 5.0.12-dev - 20150407
+* mysqld Ver 5.7.27 for Linux on x86_64
+* Composer version 1.9.0 2019-08-02 20:55:32
 
 ## 環境構築
 
@@ -24,7 +25,7 @@ srcフォルダはPHPのコードを編集するところです。
 
 Apacheのドキュメントルートになっています。
 
-Apacheの変更は.htaccessでお願いいたします。
+Apacheの修正は.htaccessでお願いいたします。
 
 ### dockerenv
 
@@ -34,12 +35,22 @@ Dockerの環境構築のコードが入っています。
 
 vagrantの環境構築のコードが入っています。
 
+## DB環境
+
+DB_HOST: db
+
+DB_USER: root
+
+DB_PASSWORD: root
+
+### 全体フォルダ構成
 
 ```linux:tree
 
 .
 ├── README.md
 ├── doc
+│   ├── dockerformac.md
 │   ├── dockerforwindows.md
 │   └── vagrantforwindows.md
 ├── dockerenv
