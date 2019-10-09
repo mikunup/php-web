@@ -29,19 +29,12 @@ Apacheの修正は.htaccessでお願いいたします。
 
 ### dockerenv
 
-Dockerの環境構築のコードが入っています。
+Dockerの環境構築のコード
 
 ### vagrantenv
 
-vagrantの環境構築のコードが入っています。
+Vagrantの環境構築のコード
 
-## DB環境
-
-DB_HOST: db
-
-DB_USER: root
-
-DB_PASSWORD: root
 
 ### 全体フォルダ構成
 
@@ -73,3 +66,11 @@ DB_PASSWORD: root
     └── startDocker.sh
 
 ```
+
+## DB環境
+
+DB_HOST: db
+
+DB_USER: root
+
+DB_PASSWORD: root
