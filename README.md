@@ -14,7 +14,7 @@ phpとApacheです。
 
 * [Docker For Windows](https://github.com/mikunup/php-web/blob/master/doc/dockerforwindows.md)
 * [Vagrant For Windows](https://github.com/mikunup/php-web/blob/master/doc/vagrantforwindows.md)
-* [Mac For Docker](https://github.com/mikunup/php-web/blob/master/doc/dockerformac.md)
+* [Docker For Mac](https://github.com/mikunup/php-web/blob/master/doc/dockerformac.md)
 
 ## フォルダ構成
 
