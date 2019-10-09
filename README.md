@@ -74,3 +74,5 @@ DB_HOST: db
 DB_USER: root
 
 DB_PASSWORD: root
+
+DB_PORT: 3502
