@@ -26,7 +26,7 @@ Apacheのドキュメントルートになっています。
 
 Apacheの変更は.htaccessでお願いいたします。
 
-### dokcerenv
+### dockerenv
 
 Dockerの環境構築のコードが入っています。
 
@@ -55,6 +55,7 @@ vagrantの環境構築のコードが入っています。
 │       └── php.ini
 ├── src
 │   └── index.php
+│   └── .htaccess
 └── vagrantenv
     ├── Vagrantfile
     ├── initenv.sh
