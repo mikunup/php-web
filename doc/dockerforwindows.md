@@ -22,6 +22,14 @@ http://www.dwapp.top/environment/virtualization/817
 
 下記を参考に、インストールする。
 
+1. gitが入っていたら、アンインストールして、管理者権限でインストールする
+
+1. Vagrantが入っていたら、アンイストールして、管理者権限でインストールする。
+
+1. Docker for Toolboxをインストールする
+チェックマークは、
+git、Vagrantにチェックマークを外してインストールする。
+
 https://qiita.com/KIYS/items/8ac37f6757a6b7f84569
 
 
@@ -43,7 +51,7 @@ https://qiita.com/KIYS/items/8ac37f6757a6b7f84569
 
 ```linux:command
 
-    http://localhost:8080/
+    http://192.168.99.100:8080/
 
 ```
 
