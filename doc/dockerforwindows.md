@@ -22,16 +22,30 @@ http://www.dwapp.top/environment/virtualization/817
 
 下記を参考に、インストールする。
 
-1. gitが入っていたら、アンインストールして、管理者権限でインストールする
+1. gitが入っていたら、アンインストールして、最新版をインストールする。管理者権限で実行する
+
+管理者権限は、右クリックで表示されます。
+
+https://gitforwindows.org/
 
 1. Vagrantが入っていたら、アンイストールして、管理者権限でインストールする。
 
+管理者権限は、右クリックで表示されます。
+
+https://www.vagrantup.com/
+
+
 1. Docker for Toolboxをインストールする
-チェックマークは、
 git、Vagrantにチェックマークを外してインストールする。
 
 https://qiita.com/KIYS/items/8ac37f6757a6b7f84569
 
+1. Docker Quickstart Terminalを管理者権限で実行する。
+
+1. Vagrantの共有ネットワークに下記を追加する。
+
+ホスト:8080
+ゲスト:80
 
 ## 3.ビルド
 
