@@ -1,6 +1,6 @@
 # Docker for windows
 
-WindowsとDockerを使用した環境構築手順を説明いたします。
+WindowsとDocker Toolboxを使用した環境構築手順を説明いたします。
 
 1. CPU仮想化を有効にする
 1. Docker Toolboxをインストールする
@@ -22,21 +22,21 @@ http://www.dwapp.top/environment/virtualization/817
 
 下記を参考に、インストールする。
 
-1. gitが入っていたら、アンインストールして、最新版をインストールする。管理者権限で実行する
+1. Git for Windowsが入っていたら、アンインストールして、最新版をインストールする。管理者権限で実行する
 
 管理者権限は、右クリックで表示されます。
 
 https://gitforwindows.org/
 
-1. Vagrantが入っていたら、アンイストールして、管理者権限でインストールする。
+1. VirtualBoxが入っていたら、アンイストールして、管理者権限でインストールする。
 
 管理者権限は、右クリックで表示されます。
 
-https://www.vagrantup.com/
+https://www.virtualbox.org/wiki/Downloads
 
 
 1. Docker for Toolboxをインストールする
-git、Vagrantにチェックマークを外してインストールする。
+Git for Windows、VirtualBoxにチェックマークを外してインストールする。
 
 https://qiita.com/KIYS/items/8ac37f6757a6b7f84569
 
