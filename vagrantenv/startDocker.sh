@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 echo "docker start"
 
 systemctl start docker

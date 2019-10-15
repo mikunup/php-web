@@ -9,12 +9,9 @@ WindowsとDocker Toolboxを使用した環境構築手順を説明いたしま�
 
 ## 1.CPU仮想化
 
-TODO
-
 下記を参考に、CPU仮想化する。
 
 https://qiita.com/KIYS/items/8ac37f6757a6b7f84569
-
 
 http://www.dwapp.top/environment/virtualization/817
 
@@ -24,28 +21,30 @@ http://www.dwapp.top/environment/virtualization/817
 
 1. Git for Windowsが入っていたら、アンインストールして、最新版をインストールする。管理者権限で実行する
 
-管理者権限は、右クリックで表示されます。
+    管理者権限は、右クリックで表示されます。
 
-https://gitforwindows.org/
+    https://gitforwindows.org/
 
 1. VirtualBoxが入っていたら、アンイストールして、管理者権限でインストールする。
 
-管理者権限は、右クリックで表示されます。
+    管理者権限は、右クリックで表示されます。
 
-https://www.virtualbox.org/wiki/Downloads
+    https://www.virtualbox.org/wiki/Downloads
 
 
 1. Docker for Toolboxをインストールする
-Git for Windows、VirtualBoxにチェックマークを外してインストールする。
 
-https://qiita.com/KIYS/items/8ac37f6757a6b7f84569
+   Git for Windows、VirtualBoxにチェックマークを外してインストールする。
+
+   https://qiita.com/KIYS/items/8ac37f6757a6b7f84569
 
 1. Docker Quickstart Terminalを管理者権限で実行する。
-
-1. Vagrantの共有ネットワークに下記を追加する。
-
-ホスト:8080
-ゲスト:80
+    1. Vagrantの共有ネットワーク。
+    1. ネットワーク
+    1. ポートフォワーティング(P)を押下する
+    1. ルールの追加
+        ホストポート:8080
+        ゲストポート:80
 
 ## 3.ビルド
 

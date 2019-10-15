@@ -8,6 +8,7 @@ phpとApacheです。
 * Apache/2.4.38 (Debian)
 * mysqld Ver 5.7.27 for Linux on x86_64
 * Composer version 1.9.0 2019-08-02 20:55:32
+* **This is perl 5**, version 28, subversion 1 (v5.28.1) built for x86_64-linux-gnu-thread-multi
 
 ## 環境構築
 
